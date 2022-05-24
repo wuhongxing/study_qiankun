@@ -3,11 +3,13 @@ import "./public-path";
 import { createApp } from "vue";
 import Vue from "vue";
 import App from "./App.vue";
+import router from './router/index';
 let instance = null;
 
 function render(props = {}) {
   const { container } = props;
   instance = createApp(App);
+  instance.use(router)
   instance.mount(container ? container.querySelector("#app") : "#app");
 }
 // 独立运行时

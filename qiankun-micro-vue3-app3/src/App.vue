@@ -1,4 +1,7 @@
 <template>
+  <router-link to="/mila">mila</router-link> |
+  <router-link to="/malena">malena</router-link>
+  <router-view />
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
 </template>
