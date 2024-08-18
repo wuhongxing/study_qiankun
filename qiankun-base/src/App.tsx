@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react"
+import "./App.css"
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <div id="micro-app2"></div>
       <div id="micro-vue3-app3"></div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
